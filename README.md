@@ -26,7 +26,7 @@ In line 9, I created a character vector of descriptive names such as Walking, Wa
 ###Step 4: Appropriately Label Variable Names with Description
 At this point, I decided that I wanted to use melt() to create a "long", tidy data set as per Hadley Wickham's paper titled "Tidy Data" (http://vita.had.co.nz/papers/tidy-data.pdf). The main points of this method are for one variable to be in one column and for one observation to be in one row.
 
-After melting the data set in line 54, I create factor variables (Domain, Acceleration Type, Signal, Jerk, Mag, Function, and Direction) and proceed to add columns for each factor onto the existing data set to properly describe each measurement based on its variables. For example, tBodyAcc-mean()-X would have Domain=Time, Type=Body, Signal=Acc, Jerk=NoJerk, Mag=NoMag, Function=mean, Direction=X. Thus I can distinctly understand what a measurement measures.
+After melting the data set in line 54, I create factor variables (Domain, Acceleration Type, Signal, Jerk, Mag, Function, and Direction) and proceed to add columns for each factor onto the existing data set to properly describe each measurement based on its variables. For example, the tBodyAcc-mean()-X measurement would have have its own row containing Domain="Time", Acceleration Type="Body", Signal="Accelerometer", Jerk="No Jerk", Mag="No Mag", Function="Mean", and Direction="X". Thus I can distinctly understand what a measurement measures.
 
 This section of code ends on line 120 with a data set called "Tidy.Data" which I included as a .txt file on my GitHub repo as an extra bit for anyone who's curious.
 
