@@ -32,7 +32,7 @@ Activity
         
 Averages
         
-        The average values, attained with mean(), of the measurements for each subject's activities
+        The average values in [Hz], attained with mean(), of the measurements for each subject's activities
 
 Domain 
 
@@ -80,4 +80,4 @@ Direction
         
 Measurement
 
-        The value of the measurement recorded
+        The value of the measurement recorded in [Hz]
