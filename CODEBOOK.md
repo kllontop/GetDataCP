@@ -1,11 +1,12 @@
 Getting & Cleaning Data: Course Project Codebook
 ========================================================
-DATA DICTIONARY - KLLONTOP RUN_ANALYSIS.R CODE
+DATA DICTIONARY - KLLONTOP RUN_ANALYSIS.R CODE (ALL DATA VARIABLES USED)
 ----------------------------------------------
 
 Subject
 
-A volunteer who wore a Samsung device from which data was measured.
+        A volunteer who wore a Samsung device from which data was measured.
+        1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
 
 
 Activity_ID
